@@ -1,5 +1,11 @@
 .git
 codeship.aes
+env_var
 dockercfg
 gcloud.env
 keyconfig.env
+dummy-codeship-services.yml
+dockercfg-generator
+dummy-codeship-steps.yml
+dockercfg.encrypted
+deployment/test/dummy_deploy_to_google.sh

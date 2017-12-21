@@ -25,11 +25,6 @@ RUN \
 	apt-get update && \
 	DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
 		docker-engine \
-		openjdk-7-jre-headless \
-		openssh-client \
-		php5-cgi \
-		php5-cli \
-		php5-mysql \
 		python \
 		python-openssl \
 		unzip && \
@@ -53,8 +48,6 @@ RUN \
 		app \
 		beta \
 		kubectl \
-		pkg-go \
-		pkg-java \
 		pkg-python \
 		preview && \
 	gcloud --quiet config set component_manager/disable_update_check true
