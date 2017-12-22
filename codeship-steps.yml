@@ -3,4 +3,4 @@
   steps:
     - name: Test deployment
       service: deployment
-      command: /deployment/test/deploy_to_google.sh
+      command: /deploy/test/deploy_to_google.sh
